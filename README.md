@@ -7,15 +7,21 @@ This game is my first 2D project created using Unity, developed in just one day.
 ## Gameplay
 
 - The game begins at the top where you control a **Golden Cinnamon Roll**.
+- Player is given 300 initial points and every drop costs 100. 
 - **Movement**: Use **A** or **D** (or the arrow keys) to move left and right to choose where to drop the cinnamon roll.
 - **Dropping**: Once you've positioned yourself, press the **Spacebar** to drop the cinnamon roll and let the fun begin!
-![Demo_Pachinko](https://github.com/user-attachments/assets/725e78b7-fe8b-4696-90f5-19633b52614b)
+![Demo_Pachinko](https://github.com/user-attachments/assets/d4044473-04b8-4630-a69f-030927c8a6ad)
+
 
 ### Obstacles:
 - **Clover Cookies**: These are spinning obstacles that will block your path.
 - **Donut Cookies**: These are also spinning obstacles, but slightly different in appearance and behavior.
-- **Pancakes**: These bounce you away when hit, providing an additional challenge.
+- **Fluffy Pancakes**: These bounce you away when hit, providing an additional challenge.
 - **Wall Bouncing**: You can bounce off the walls, which adds more unpredictability and fun to the gameplay.
+
+### Collectable:
+- **Coffee**: This special collectable is worth **1500 points**.  Everyone needs a little coffee in life :D
+- It spawns only after the previous Coffee has been collected, adding an extra layer of challenge and reward!
 
 ### Scoring System:
 - **Strawberry Shortcake**: 500 points
