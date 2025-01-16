@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private TMP_Text scoreText = null;
 
+    [SerializeField]
+    private GameObject collectablePrefab = null;
     private int score = 0;
 
     void Awake()
@@ -21,13 +23,15 @@ public class GameManager : MonoBehaviour
         else
         {
             instance = this;
-            AddScore(0);
+            AddScore(300);
+            SpawnCollectable();
         }
     }
 
     void Update()
     {
-        
+
+      
     }
 
     public void AddScore(int amount)
@@ -39,5 +43,14 @@ public class GameManager : MonoBehaviour
     public int GetScore()
     {
         return score;
+    }
+
+    public void SpawnCollectable()
+    {
+        Vector3 spawnPosition = Vector3.zero;
+        spawnPosition.x = Random.Range(-2.5f, 2.7f);
+        spawnPosition.y = Random.Range(-2.7f, 1.9f);
+        GameObject newCollectable = Instantiate(collectablePrefab, spawnPosition, Quaternion.identity);
+        
     }
 }

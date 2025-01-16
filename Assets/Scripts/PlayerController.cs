@@ -34,6 +34,8 @@ public class PlayerControl : MonoBehaviour
                 playerPosition = transform.position;
                 playerRB.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
                 isFalling = true;
+                GameManager.Instance.AddScore(-100);
+
             }
         }
     
@@ -77,9 +79,11 @@ public class PlayerControl : MonoBehaviour
             GameManager.Instance.AddScore(500);
         }
 
-        if (collision.gameObject.CompareTag("2500"))
+        if (collision.gameObject.CompareTag("1500"))
         {
-            GameManager.Instance.AddScore(2500);
+            GameManager.Instance.AddScore(1500);
+            Destroy(collision.gameObject);
+            GameManager.Instance.SpawnCollectable();
         }
     }
 

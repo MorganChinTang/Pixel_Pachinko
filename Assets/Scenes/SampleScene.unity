@@ -2771,6 +2771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1116374241}
+  collectablePrefab: {fileID: 9007923274875134491, guid: 8766088f85a490c4b96e75de60653add, type: 3}
 --- !u!4 &920661620
 Transform:
   m_ObjectHideFlags: 0
@@ -3814,7 +3815,7 @@ Transform:
   m_GameObject: {fileID: 1334042026}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07099986, y: 3.6699998, z: 0}
+  m_LocalPosition: {x: 0.02900014, y: 3.5699997, z: 0}
   m_LocalScale: {x: 0.6301975, y: 0.6301975, z: 0.6301975}
   m_ConstrainProportionsScale: 0
   m_Children: []
