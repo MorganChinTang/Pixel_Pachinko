@@ -10,7 +10,9 @@ This game is my first 2D project created using Unity, developed in just one day.
 - Player is given 300 initial points and every drop costs 100. 
 - **Movement**: Use **A** or **D** (or the arrow keys) to move left and right to choose where to drop the cinnamon roll.
 - **Dropping**: Once you've positioned yourself, press the **Spacebar** to drop the cinnamon roll and let the fun begin!
-![Demo_Pachinko](https://github.com/user-attachments/assets/d4044473-04b8-4630-a69f-030927c8a6ad)
+![Demo_Pachinko](https://github.com/user-attachments/assets/d4fc4cc7-a1dc-42cc-bf67-cd79611f8c83)
+
+(gif maker did my border dirty :C)
 
 
 ### Obstacles:
