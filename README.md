@@ -37,7 +37,9 @@ I personally prefer to play it in 768x1024, but the game runs in 1080x1920 as we
   
 ### How To Open File
 
-Download the files and add the file to your projects in Unity Hub and run the game! Change aspect ratio in game tab if needed, or build the game in unity.
+- Download the files and add the file to your projects in Unity Hub and run the game! 
+- Change aspect ratio in game tab if needed, or go to File->*Build Profiles* to create customized build with specified settings such as aspect ratio or windowed fullscreen; or *Build And Run* to quickly build the game in unity.
+- When the file opened in unity, the scene is located in Assets/Scenes/Sample Scene, double click to open the scene.
   
 ## Art Resources Used
 
