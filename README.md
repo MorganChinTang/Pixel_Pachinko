@@ -4,6 +4,9 @@
 
 This game is my first 2D project created using Unity, developed in just one day. The game features a **Pachinko-style** gameplay where you control a **Golden Cinnamon Roll** and navigate through a variety of delicious obstacles, trying to land on different types of cakes for points. It is a fun and fast-paced arcade-style game with bouncing and spinning obstacles that add excitement to the experience.
 
+## Recommended Aspect Ratio
+I personally prefer to play it in 768x1024, but the game runs in 1080x1920 as well. Feel free to build the game with windows presets.
+
 ## Gameplay
 
 - The game begins at the top where you control a **Golden Cinnamon Roll**.
