@@ -34,11 +34,10 @@ I personally prefer to play it in 768x1024, but the game runs in 1080x1920 as we
 - **Matcha Cake**: 100 points
 - **Vanilla Cake**: 80 points
 - **Chocolate Cake**: 50 points
-Try to land on the cakes for the highest score possible while avoiding the obstacles!
-
+  
 ### How To Open File
 
-The game do not have a build currently, download the files and add the file to your projects in Unity Hub and run the game!
+Download the files and add the file to your projects in Unity Hub and run the game! Change aspect ratio in game tab if needed, or build the game in unity.
   
 ## Art Resources Used
 
